@@ -1,0 +1,54 @@
+{
+  "database_validation": {
+    "checks": {
+      "integrity_ok": true,
+      "foreign_keys_ok": true,
+      "source_rows_preserved": true,
+      "source_revenue_preserved": true,
+      "source_units_preserved": true,
+      "join_does_not_duplicate_or_lose_rows": true,
+      "annual_totals_preserved": true
+    },
+    "source_file": "faucets_sales_cleaned.csv.zip",
+    "source_sha256": "9343938392e2aea1c8699ef5bff7d5b1727e6bf1e77db7e53f14e553ff384927",
+    "rules_sha256": "8a0657e5fd07540185b7b0580881cc5939923809f65841319975443f319d381e",
+    "source_rows": 218668,
+    "revenue_rub": 5825846935,
+    "units_sold": 1657966,
+    "years": {
+      "2023": {
+        "rows": 108870,
+        "revenue_rub": 2545858193,
+        "units": 728361
+      },
+      "2024": {
+        "rows": 109798,
+        "revenue_rub": 3279988742,
+        "units": 929605
+      }
+    },
+    "brands": 1179,
+    "product_keys": 54773,
+    "unique_names": 53038,
+    "unmatched_rule_rows": 0,
+    "repeated_product_month_groups": 17844
+  },
+  "report_filters": {
+    "date_from": "0001-01-01",
+    "date_to": "9999-12-31",
+    "brand": null,
+    "limit": 1000
+  },
+  "exported_rows": {
+    "monthly_sales": 24,
+    "brand_assortment": 1179,
+    "subcategory_assortment": 4,
+    "price_segments": 4,
+    "brand_yoy": 1854,
+    "brand_abc": 1179,
+    "quality_checks": 7,
+    "catalog_export": 1000,
+    "repeated_product_months": 1000,
+    "classification_review": 685
+  }
+}
