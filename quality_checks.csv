@@ -1,8 +1,0 @@
-﻿metric,description,total_rows,affected_rows,affected_pct
-discount_marked,В исходных признаках отмечена уценка,218668,4334,1.982
-filter_label_conflict,Исходная cat3 расходится с cat3_new,218668,5,0.0023
-missing_color,Не определён цвет,218668,96299,44.0389
-missing_material,Не определён материал или покрытие,218668,107366,49.1
-missing_original_filter_label,Исходная cat3 не заполнена,218668,167037,76.3884
-unknown_mechanism,Тип механизма не определён,218668,188490,86.1992
-unmatched_rule,Не найдено правило подкатегории,218668,0,0.0
